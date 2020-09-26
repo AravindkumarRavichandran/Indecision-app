@@ -7,6 +7,7 @@ const OptionModal = (props) => (
     onRequestClose={props.handleClearSelectedOption}
     contentLabel="Selected Option"
     closeTimeoutMS={200}
+    ariaHideApp={false}
     className="modal"
   >
     <h3 className="modal__title">Selected Option</h3>
